@@ -9,3 +9,4 @@ searechInput.addEventListner('input', debounce(getCountryData, DEBOUNCE_DELAY));
 function getCountryData(event) {
   const countryName = event.target.value;
 }
+const pugovka = {};
