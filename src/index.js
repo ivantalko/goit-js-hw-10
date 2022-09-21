@@ -18,6 +18,7 @@ function getCountryData(e) {
         cleanMarkup(countryList);
         markupCountry(data[0]);
       } else if (data.length >= 2 && data.length <= 10) {
+        cleanMarkup(countryInfo);
         markupCountries(data);
       } else if (data.length > 10) {
         Notiflix.Notify.info(
