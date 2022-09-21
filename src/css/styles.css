@@ -19,5 +19,6 @@ body {
   margin-bottom: 16px;
 }
 .list {
+  font-family: inherit;
   list-style: none;
 }

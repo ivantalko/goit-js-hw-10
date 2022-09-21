@@ -49,8 +49,8 @@ function markupCountries(countryData) {
     const { flags, name } = country;
     return countryList.insertAdjacentHTML(
       'beforeend',
-      `<ul><li class=list><img src=${flags.svg} width = "30"/>
-      <span>${name.official}</span></li></ul>`
+      `<li class=list><img src=${flags.svg} width = "30"/>
+      <span>${name.official}</span></li>`
     );
   });
 }
