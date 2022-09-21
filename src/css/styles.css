@@ -23,3 +23,8 @@ body {
   font-weight: 700;
   list-style: none;
 }
+.bigList {
+  font-family: inherit;
+  font-weight: 900;
+  font-size: 30px;
+}

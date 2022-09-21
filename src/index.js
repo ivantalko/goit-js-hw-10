@@ -36,7 +36,7 @@ function markupCountry(countryData) {
 
   return countryInfo.insertAdjacentHTML(
     'beforeend',
-    `<div class=list><img src="${flags.svg}" width = "75" alt = "flag"/>   
+    `<div class=bigList><img src="${flags.svg}" width = "75" alt = "flag"/>   
     ${name.official}</div>
     <ul><li class=list>Capital: ${capital}</li>
     <li class=list>Population: ${population}</li>
