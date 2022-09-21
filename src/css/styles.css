@@ -20,5 +20,6 @@ body {
 }
 .list {
   font-family: inherit;
+  font-weight: 700;
   list-style: none;
 }
