@@ -15,6 +15,7 @@ function getCountryData(e) {
   fetchCountries(countryName)
     .then(data => {
       if (data.length === 1) {
+        cleanMarkup(countryList);
         markupCountry(data[0]);
       } else if (data.length >= 2 && data.length <= 10) {
         markupCountries(data);
@@ -53,4 +54,7 @@ function markupCountries(countryData) {
       <span>${name.official}</span></li>`
     );
   });
+}
+function cleanMarkup(element) {
+  element.innerHTML = '';
 }
